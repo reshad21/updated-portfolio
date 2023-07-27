@@ -1,0 +1,43 @@
+.banner {
+    background: #badcdc;
+    box-shadow: inset 0px 261px 124px #ffffff;
+}
+
+.banner-heading {
+    background-image: linear-gradient(to right, #ef00b7, #6815eb, #0078f3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 7rem;
+}
+
+.banner-heading-sub {
+    background-image: linear-gradient(to right, #ef00b7, #6815eb, #0078f3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.fa-icon {
+    --s: 3.8rem;
+    /* the size of the image */
+    --b: 2px;
+    /* the border thickness*/
+    --g: 4px;
+    /* the gap */
+    --c: #4ecdc4;
+    /* the color */
+
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s) / 2) solid #0009;
+    outline-offset: calc(var(--s) / -2);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.fa-icon:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
