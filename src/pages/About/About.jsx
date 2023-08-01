@@ -15,7 +15,7 @@ const About = () => {
                     alt=""
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto">
+            <div className="max-w-screen-xl mx-auto p-24">
                 <div className="text-center p-36">
                     <h2 className="text-6xl banner-heading-sub">About Me</h2>
                 </div>
@@ -39,7 +39,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 sm:p-0 px-36 pt-10" data-aos="zoom-in-right">
+                    <div className="flex-1 px-0 md:px-36 lg:px-36 pt-10" data-aos="zoom-in-right">
                         <Tabs>
                             <TabList>
                                 <Tab>
@@ -64,7 +64,7 @@ const About = () => {
                                         prioritize effective communication, delivering high-quality
                                         work, and providing ongoing support to clients. Lets
                                         collaborate and bring your project to life!. <br /> Best
-                                        regards, <br /> Sharmin Akhi
+                                        regards, <br /> Rashed Uzzaman Reshad
                                     </p>
                                     <button className="btn-main mt-10">Hire Me</button>
                                 </div>
