@@ -52,7 +52,7 @@ body {
 
   border-radius: 23.5px;
 
-  background-image: linear-gradient(to right, #DD2476, #FF512F);
+  background-image: linear-gradient(to right, #DD2476, #0078f3);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -93,7 +93,7 @@ body {
 .btn-main:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(#fff, 0.2);
-  background-image: linear-gradient(to right, #FF512F, #DD2476);
+  background-image: linear-gradient(to right, #FF512F #DD2476);
 }
 
 .btn-main:active,
