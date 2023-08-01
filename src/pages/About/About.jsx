@@ -79,17 +79,39 @@ const About = () => {
                                         <h3 className="text-3xl text-[#0078f3] ">Css3</h3>
                                         <ProgressBar bgColor="#ef00b7" height={15} completed={90} />
                                     </div>
+                                    <div className="my-10">
+                                        <h3 className="text-3xl text-[#0078f3] ">Figma To Html</h3>
+                                        <ProgressBar bgColor="#ef00b7" height={15} completed={95} />
+                                    </div>
                                     <div className="mb-10">
                                         <h3 className="text-3xl text-[#0078f3]">Javascript</h3>
-                                        <ProgressBar bgColor="#ef00b7" height={15} completed={80} />
+                                        <ProgressBar bgColor="#ef00b7" height={15} completed={85} />
                                     </div>
                                     <div>
                                         <h3 className="text-3xl text-[#0078f3]">React</h3>
                                         <ProgressBar bgColor="#ef00b7" height={15} completed={80} />
                                     </div>
                                     <div className="my-10">
+                                        <div>
+                                            <h3 className="text-3xl text-[#0078f3]">Firebase</h3>
+                                            <ProgressBar bgColor="#ef00b7" height={15} completed={80} />
+                                        </div>
+                                    </div>
+                                    <div className="my-10">
                                         <h3 className="text-3xl text-[#0078f3] ">Redux</h3>
                                         <ProgressBar bgColor="#ef00b7" height={15} completed={85} />
+                                    </div>
+                                    <div className="my-10">
+                                        <h3 className="text-3xl text-[#0078f3] ">MongoDb</h3>
+                                        <ProgressBar bgColor="#ef00b7" height={15} completed={80} />
+                                    </div>
+                                    <div className="my-10">
+                                        <h3 className="text-3xl text-[#0078f3] ">Mongoose</h3>
+                                        <ProgressBar bgColor="#ef00b7" height={15} completed={70} />
+                                    </div>
+                                    <div className="my-10">
+                                        <h3 className="text-3xl text-[#0078f3] ">Wordpress theme customization</h3>
+                                        <ProgressBar bgColor="#ef00b7" height={15} completed={90} />
                                     </div>
                                 </div>
                             </TabPanel>

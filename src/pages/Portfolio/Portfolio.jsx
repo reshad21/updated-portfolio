@@ -27,18 +27,18 @@ const Portfolio = () => {
                             />
                             <div className="story__caption rounded-2xl ">
                                 <div className="text">
-                                    <p className="text-4xl">Job Finder</p>
+                                    <p className="text-4xl">Movie App</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/AkhiSharmin/career-hub-Assingment-9">
+                                        <a href="https://github.com/reshad21/movix">
                                             <FaGithub
                                                 title="Code Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#00efab] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://b7a9-career-hub-akhi-sharmin.vercel.app/">
+                                        <a href="https://movixtime.netlify.app/">
                                             <FaLink
                                                 title="Live Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#00efab] mx-5 fa-icon"
                                             />
                                         </a>
                                     </div>
