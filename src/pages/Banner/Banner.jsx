@@ -21,13 +21,13 @@ const Banner = () => {
                             <div className="flex items-center space-x-5 mt-8">
                                 <button className="btn-main">About Me</button>
                                 <div className="flex items-center">
-                                    <Link to="https://www.facebook.com/profile.php?id=100010121712983">
+                                    <Link to="https://www.facebook.com/reshad.rashed.7">
                                         <FaFacebook className="text-6xl text-[#0078f3] fa-icon" />
                                     </Link>
-                                    <Link to="https://github.com/AkhiSharmin?tab=repositories">
+                                    <Link to="https://github.com/reshad21">
                                         <FaGithub className="text-6xl text-[#0078f3] mx-5 fa-icon" />
                                     </Link>
-                                    <Link to="https://www.linkedin.com/in/sharmin-akhi-26a08b1b9/">
+                                    <Link to="https://www.linkedin.com/in/rashed-uzzaman-reshad/">
                                         <FaLinkedin className="text-6xl rounded-full text-[#0078f3] fa-icon" />
                                     </Link>
                                 </div>
