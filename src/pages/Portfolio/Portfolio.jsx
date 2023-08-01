@@ -32,13 +32,13 @@ const Portfolio = () => {
                                         <a href="https://github.com/reshad21/movix">
                                             <FaGithub
                                                 title="Code Link"
-                                                className="text-6xl text-[#00efab] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
                                         <a href="https://movixtime.netlify.app/">
                                             <FaLink
                                                 title="Live Link"
-                                                className="text-6xl text-[#00efab] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
                                     </div>

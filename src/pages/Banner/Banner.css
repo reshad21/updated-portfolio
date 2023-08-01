@@ -1,10 +1,10 @@
 .banner {
-    background: #badcdc;
+    background: #2ffff596;
     box-shadow: inset 0px 261px 124px #ffffff;
 }
 
 .banner-heading {
-    background-image: linear-gradient(to right, #ef00b7, #6815eb, #0078f3);
+    background-image: linear-gradient(to right, #DD2476, #FF512F);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -12,7 +12,7 @@
 }
 
 .banner-heading-sub {
-    background-image: linear-gradient(to right, #ef00b7, #6815eb, #0078f3);
+    background-image: linear-gradient(to right, #DD2476, #FF512F);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -30,7 +30,7 @@
 
     width: var(--s);
     aspect-ratio: 1;
-    outline: calc(var(--s) / 2) solid #0009;
+    outline: calc(var(--s) / 2) solid rgba(0, 0, 0, 0.21);
     outline-offset: calc(var(--s) / -2);
     cursor: pointer;
     transition: 0.3s;
