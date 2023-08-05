@@ -56,18 +56,18 @@ const Portfolio = () => {
 
                             <div className="story__caption rounded-2xl">
                                 <div className="text">
-                                    <p className="text-4xl">Foody</p>
+                                    <p className="text-4xl">CMS</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/AkhiSharmin/Chef-hunter">
+                                        <a href="https://github.com/reshad21/content-management-application">
                                             <FaGithub
                                                 title="Code Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://chef-hunter-8477e.web.app/">
+                                        <a href="https://frontendarticls.netlify.app/">
                                             <FaLink
                                                 title="Live Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
                                     </div>
@@ -85,18 +85,18 @@ const Portfolio = () => {
                             />
                             <div className="story__caption rounded-2xl">
                                 <div className="text">
-                                    <p className="text-4xl">Car Toy</p>
+                                    <p className="text-4xl">Photography</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/AkhiSharmin/car-toys">
+                                        <a href="https://github.com/reshad21/wild-photographer-client">
                                             <FaGithub
                                                 title="Code Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://auth-firebase-context-ta-11837.web.app/">
+                                        <a href=" https://winter-shopping-center.web.app/">
                                             <FaLink
                                                 title="Live Link"
-                                                className="text-6xl text-[#ef00b7] mx-5 fa-icon"
+                                                className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
                                     </div>
