@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import resume from "../../assets/sharmin-resume.pdf";
+import resume from "../../assets/reshad-resume.pdf";
 
 const Navber = () => {
 
@@ -65,7 +65,7 @@ const Navber = () => {
                     <div className="hidden lg:flex">
                         <ul className="menu menu-horizontal text-3xl ">{navItem}</ul>
                     </div>
-                    <a href={resume} className="btn-sub" download="sharmin-resume">
+                    <a href={resume} className="btn-sub" download="reshad-resume">
                         Download Cv
                     </a>
                 </div>
