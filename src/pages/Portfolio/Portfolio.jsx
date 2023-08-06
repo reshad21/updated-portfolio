@@ -64,7 +64,7 @@ const Portfolio = () => {
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://frontendarticls.netlify.app/">
+                                        <a href="https://content-management-application.vercel.app/">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
