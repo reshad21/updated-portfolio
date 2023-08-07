@@ -57,7 +57,7 @@ const About = () => {
                                         I can design anything and <br /> develope you want
                                     </h3>
                                     <p className="text-3xl text-slate-500">
-                                        I am Sharmin Akhi, a highly skilled and passionate
+                                        I am Rashed Uzzaman Reshad, a highly skilled and passionate
                                         Professional Web Designer with 4+ years of experience. I
                                         specialize in PSD to HTML, Bootstrap, Tailwind CSS,
                                         JavaScript, React, MongoDB, Node.js, and Firebase. I
