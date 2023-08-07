@@ -22,13 +22,13 @@ const Banner = () => {
                                 <button className="btn-main">About Me</button>
                                 <div className="flex items-center">
                                     <Link to="https://www.facebook.com/reshad.rashed.7">
-                                        <FaFacebook className="text-6xl text-[#0078f3] fa-icon" />
+                                        <FaFacebook className="text-6xl text-[#000] fa-icon" />
                                     </Link>
                                     <Link to="https://github.com/reshad21">
-                                        <FaGithub className="text-6xl text-[#0078f3] mx-5 fa-icon" />
+                                        <FaGithub className="text-6xl text-[#000] mx-5 fa-icon" />
                                     </Link>
                                     <Link to="https://www.linkedin.com/in/rashed-uzzaman-reshad/">
-                                        <FaLinkedin className="text-6xl rounded-full text-[#0078f3] fa-icon" />
+                                        <FaLinkedin className="text-6xl rounded-full text-[#000] fa-icon" />
                                     </Link>
                                 </div>
                             </div>
