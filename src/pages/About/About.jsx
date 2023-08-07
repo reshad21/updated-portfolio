@@ -71,14 +71,6 @@ const About = () => {
                             </TabPanel>
                             <TabPanel>
                                 <div className="mt-10">
-                                    <div>
-                                        <h3 className="text-3xl text-[#0078f3]">Html5</h3>
-                                        <ProgressBar bgColor="#ef00b7" height={15} completed={90} />
-                                    </div>
-                                    <div className="my-10">
-                                        <h3 className="text-3xl text-[#0078f3] ">Css3</h3>
-                                        <ProgressBar bgColor="#ef00b7" height={15} completed={90} />
-                                    </div>
                                     <div className="my-10">
                                         <h3 className="text-3xl text-[#0078f3] ">Figma To Html</h3>
                                         <ProgressBar bgColor="#ef00b7" height={15} completed={95} />
@@ -108,10 +100,6 @@ const About = () => {
                                     <div className="my-10">
                                         <h3 className="text-3xl text-[#0078f3] ">Mongoose</h3>
                                         <ProgressBar bgColor="#ef00b7" height={15} completed={70} />
-                                    </div>
-                                    <div className="my-10">
-                                        <h3 className="text-3xl text-[#0078f3] ">Wordpress theme customization</h3>
-                                        <ProgressBar bgColor="#ef00b7" height={15} completed={90} />
                                     </div>
                                 </div>
                             </TabPanel>
