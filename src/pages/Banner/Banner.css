@@ -1,6 +1,7 @@
 .banner {
-    background: #76c650;
+    /* background: #76c650; */
     box-shadow: inset 0px 261px 124px #ffffff;
+    background-image: linear-gradient(#ee9cdc, #ffdde1);
 }
 
 .banner-heading {
