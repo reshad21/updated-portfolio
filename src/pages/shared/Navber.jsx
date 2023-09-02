@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import resume from "../../assets/reshad-resume.pdf";
 
 const Navber = () => {
-
+    const [toggle, setToggle] = useState(false);
+    console.log(toggle);
     const navItem = (
         <>
             <li>
@@ -27,15 +28,17 @@ const Navber = () => {
         </>
     );
 
+    const hide = "hidden";
+    const show = "menu dropdown-content mt-3 p-5 shadow shadow-box w-52 text-left text-4xl font-bold z-50";
     return (
         <div className="shadow-md sticky top-0 z-50 bg-white bg-opacity-80">
             <div className="navbar max-w-screen-xl mx-auto z-10 p-5">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden" onClick={() => setToggle(!toggle)}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5"
+                                className="h-12 w-12"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -48,12 +51,12 @@ const Navber = () => {
                                 />
                             </svg>
                         </label>
-                        <ul
-                            tabIndex={0}
-                            className="menu dropdown-content mt-3 p-5 shadow shadow-box w-52 text-left text-2xl"
-                        >
+
+
+                        <ul tabIndex={0} className={`${toggle ? show : hide}`}>
                             {navItem}
                         </ul>
+
                     </div>
 
                     <Link className="text-5xl font-semibold">
