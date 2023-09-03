@@ -9,7 +9,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 7rem;
+    /* font-size: 7rem; */
 }
 
 .banner-heading-sub {

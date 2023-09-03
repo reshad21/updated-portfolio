@@ -9,11 +9,11 @@ const Banner = () => {
         <div className="banner bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30" id="home">
             <div className="banner-content p-24">
                 <div className="md:flex justify-center items-center md:space-x-52 ">
-                    <div className="p-10" data-aos="zoom-in-up">
+                    <div className="p-10" >
                         <div>
                             <p className="text-5xl">Hello I&#39;m,</p>
-                            <h2 className="banner-heading">Rashed Uzzaman Reshad</h2>
-                            <h4 className="text-3xl md:text-5xl lg:text-5xl">
+                            <h2 className="banner-heading text-6xl md:text-6xl lg:text-8xl">Rashed Uzzaman Reshad</h2>
+                            <h4 className="text-4xl md:text-3xl lg:text-5xl">
                                 A{" "}
                                 <span className="banner-heading-sub">Creative Developer </span>
                                 From Bangladesh
@@ -35,9 +35,9 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className="p-10" data-aos="zoom-in-up">
-                        <div className="w-[200px] md:w-[400px] lg:w-[400px]">
-                            <Lottie animationData={bannerSvg} loop={true} />
+                    <div className="m-0">
+                        <div className="w-full md:w-[300px] lg:w-[400px]">
+                            <Lottie animationData={bannerSvg} loop={true} width={100} />
                         </div>
                     </div>
                 </div>

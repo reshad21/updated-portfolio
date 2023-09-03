@@ -9,13 +9,13 @@ const About = () => {
         <div className="p-5 relative about" id="about">
             <div>
                 <img
-                    className="absolute left-48 top-64 "
+                    className="absolute left-48 top-80 md:top-[20rem] lg:top-52 w-[50%] md:w-[30%] lg:w-[30%]"
                     data-aos="zoom-in-down"
                     src="https://i.ibb.co/D7B9JTn/bars12.png"
                     alt=""
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto p-24">
+            <div className="max-w-screen-xl mx-auto p-0 md:p-20 lg:p-24">
                 <div className="text-center p-36">
                     <h2 className="text-6xl banner-heading-sub">About Me</h2>
                 </div>
@@ -52,8 +52,8 @@ const About = () => {
 
                             <TabPanel>
                                 <div className="mt-10">
-                                    <p className="banner-heading-sub text-4xl">Im a Designer</p>
-                                    <h3 className="text-6xl capitalize my-5">
+                                    <p className="banner-heading-sub text-4xl">Im a Full Stack Web Developer</p>
+                                    <h3 className="text-4xl md:text-4xl lg:text-6xl capitalize my-5">
                                         I can design anything and <br /> develope you want
                                     </h3>
                                     <p className="text-3xl text-slate-500">

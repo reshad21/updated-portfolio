@@ -66,7 +66,7 @@ const Navber = () => {
 
                 <div className="navbar-end">
                     <div className="hidden lg:flex">
-                        <ul className="menu menu-horizontal text-3xl ">{navItem}</ul>
+                        <ul className="menu menu-horizontal text-2xl">{navItem}</ul>
                     </div>
                     <a href={resume} className="btn-sub" download="reshad-resume">
                         Download Cv
