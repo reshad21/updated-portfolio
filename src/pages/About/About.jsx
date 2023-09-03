@@ -9,7 +9,7 @@ const About = () => {
         <div className="p-5 relative about" id="about">
             <div>
                 <img
-                    className="absolute left-48 top-80 md:top-[20rem] lg:top-52 w-[50%] md:w-[30%] lg:w-[30%]"
+                    className="absolute md:top-36 top-80 right-44"
                     data-aos="zoom-in-down"
                     src="https://i.ibb.co/D7B9JTn/bars12.png"
                     alt=""

@@ -1,6 +1,9 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import About from './../About/About';
+import Blog from './../Blog/Blog';
+import Contact from './../Contact/Contact';
+import Portfolio from './../Portfolio/Portfolio';
 import WorkDetails from './../WorkDetails/WorkDetails';
 
 const Home = () => {
@@ -9,10 +12,10 @@ const Home = () => {
             <Banner />
             <WorkDetails />
             <About />
-            {/* <Portfolio /> */}
+            <Portfolio />
             {/* <Servicess /> */}
-            {/* <Blog /> */}
-            {/* <Contact /> */}
+            <Blog />
+            <Contact />
         </>
     );
 };
