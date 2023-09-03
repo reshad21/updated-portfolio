@@ -2,8 +2,8 @@ import "./WorkDetails.css";
 
 const WorkDetails = () => {
     return (
-        <div className="max-w-screen-xl mx-auto sm:p-5 p-48" data-aos="zoom-in-up">
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 -mt-16 gap-36">
+        <div className="max-w-screen-xl mx-auto p-36 md:p-48 lg:p-48" data-aos="zoom-in-up">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 -mt-16 gap-20 md:gap-14 lg:gap-9">
                 <div className="bg-white p-5 shadow-xl shadow-box rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                     <div className="md:flex items-center space-x-2 justify-center">
                         <img
