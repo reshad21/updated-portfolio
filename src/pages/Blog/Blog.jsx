@@ -2,7 +2,7 @@ import "./Blog.css";
 
 const Blog = () => {
     return (
-        <div className="blog relative" id="blog">
+        <div className="blog bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30 relative" id="blog">
             <div>
                 <img
                     className="absolute right-36 top-20"

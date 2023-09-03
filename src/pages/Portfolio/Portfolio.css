@@ -28,72 +28,72 @@
 } */
 
 .portfolio {
-    background: #badcdc;
-    box-shadow: inset 0px 661px 124px #ffffff;
+  /* background: #badcdc; */
+  box-shadow: inset 0px 661px 124px #ffffff;
 }
 
 .portfolio-1 {
-    display: grid;
-    grid-template-rows: 240px 500px;
-    grid-template-columns: 1;
+  display: grid;
+  grid-template-rows: 240px 500px;
+  grid-template-columns: 1;
 }
 
 .portfolio-2 {
-    display: grid;
-    grid-template-rows: 500px 240px;
-    grid-template-columns: 1;
+  display: grid;
+  grid-template-rows: 500px 240px;
+  grid-template-columns: 1;
 }
 
 .portfolio-3 {
-    display: grid;
-    grid-template-rows: 240px 500px;
-    grid-template-columns: 1;
+  display: grid;
+  grid-template-rows: 240px 500px;
+  grid-template-columns: 1;
 }
 
 @media (max-width: 640px) {
-    .portfolio-1 {
-        grid-template-rows: 240px 240px;
-    }
+  .portfolio-1 {
+    grid-template-rows: 240px 240px;
+  }
 
-    .portfolio-2 {
-        display: grid;
-        grid-template-rows: 240px 240px;
-        grid-template-columns: 1;
-    }
+  .portfolio-2 {
+    display: grid;
+    grid-template-rows: 240px 240px;
+    grid-template-columns: 1;
+  }
 
-    .portfolio-3 {
-        grid-template-rows: 240px 240px;
-    }
+  .portfolio-3 {
+    grid-template-rows: 240px 240px;
+  }
 }
 
 .story__shape {
-    position: relative;
+  position: relative;
 }
 
 .story__caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: 0.5s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
 }
 
 .story__shape:hover .story__caption {
-    height: 100%;
+  height: 100%;
 }
 
 .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

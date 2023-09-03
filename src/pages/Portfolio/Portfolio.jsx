@@ -3,7 +3,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
     return (
-        <div className="p-5 relative portfolio" id="portfolio">
+        <div className="p-5 relative portfolio bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30" id="portfolio">
             <div>
                 <img
                     className="absolute md:top-36 top-80 right-44"
@@ -18,7 +18,7 @@ const Portfolio = () => {
                 </div>
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
                     <div className="portfolio-1">
-                        <div className="mb-10 shadow-2xl rounded-2xl rounded-2xl story__shape">
+                        <div className="mb-10 shadow-2xl rounded-2xl story__shape">
                             <img
                                 className="h-full w-full story__img rounded-2xl"
                                 data-aos="zoom-in-up"
