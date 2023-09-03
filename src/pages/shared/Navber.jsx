@@ -29,7 +29,7 @@ const Navber = () => {
     );
 
     const hide = "hidden";
-    const show = "menu dropdown-content mt-3 p-5 shadow shadow-box w-52 text-left text-4xl font-bold z-50";
+    const show = "menu dropdown-content mt-3 p-5 shadow shadow-box w-62 text-left text-4xl font-bold z-50 bg-slate-500";
     return (
         <div className="shadow-md sticky top-0 z-50 bg-white bg-opacity-80">
             <div className="navbar max-w-screen-xl mx-auto z-10 p-5">
@@ -53,7 +53,7 @@ const Navber = () => {
                         </label>
 
 
-                        <ul tabIndex={0} className={`${toggle ? show : hide}`}>
+                        <ul tabIndex={0} className={`${toggle ? "menu dropdown-content mt-3 p-5 shadow-box w-[200px] text-left text-4xl font-bold z-5 rounded-xl shadow-xl text-slate-200 backdrop-blur-xl bg-gradient-to-r from-[#DD2476] to-[#FF512F]/30" : hide}`}>
                             {navItem}
                         </ul>
 
