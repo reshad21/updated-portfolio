@@ -6,7 +6,7 @@ import "./Banner.css";
 
 const Banner = () => {
     return (
-        <div className="banner" id="home">
+        <div className="banner bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30" id="home">
             <div className="banner-content p-24">
                 <div className="md:flex justify-center items-center md:space-x-52 ">
                     <div className="p-10" data-aos="zoom-in-up">
