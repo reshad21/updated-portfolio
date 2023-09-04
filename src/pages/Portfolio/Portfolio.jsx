@@ -29,13 +29,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">Movie App</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/reshad21/movix">
+                                        <a href="https://github.com/reshad21/movix" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://movixtime.netlify.app/">
+                                        <a href="https://movixtime.netlify.app/" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
@@ -58,13 +58,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">CMS</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/reshad21/content-management-application">
+                                        <a href="https://github.com/reshad21/content-management-application" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://contentmanagement-application.vercel.app/">
+                                        <a href="https://contentmanagement-application.vercel.app/" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
@@ -87,13 +87,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">Photography</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/reshad21/wild-photographer-client">
+                                        <a href="https://github.com/reshad21/wild-photographer-client" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href=" https://winter-shopping-center.web.app/">
+                                        <a href=" https://winter-shopping-center.web.app/" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#2fffd5] mx-5 fa-icon"
@@ -115,13 +115,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">Coffee</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/AkhiSharmin/Dark-Coffee-Website">
+                                        <a href="https://github.com/AkhiSharmin/Dark-Coffee-Website" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://akhisharmin.github.io/Dark-Coffee-Website/">
+                                        <a href="https://akhisharmin.github.io/Dark-Coffee-Website/" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
@@ -144,13 +144,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">Musical Website</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="https://github.com/AkhiSharmin/Rap2France">
+                                        <a href="https://github.com/AkhiSharmin/Rap2France" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://akhisharmin.github.io/Rap2France/?#">
+                                        <a href="https://akhisharmin.github.io/Rap2France/?#" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
@@ -172,13 +172,13 @@ const Portfolio = () => {
                                 <div className="text">
                                     <p className="text-4xl">Legal Solution</p>
                                     <div className="flex items-center mt-10">
-                                        <a href="#">
+                                        <a href="#" target="_blank">
                                             <FaGithub
                                                 title="Code Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
                                             />
                                         </a>
-                                        <a href="https://clinquant-horse-92e374.netlify.app/">
+                                        <a href="https://clinquant-horse-92e374.netlify.app/" target="_blank">
                                             <FaLink
                                                 title="Live Link"
                                                 className="text-6xl text-[#ef00b7] mx-5 fa-icon"
