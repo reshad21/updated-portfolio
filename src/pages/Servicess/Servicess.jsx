@@ -6,7 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper/modules";
+import { FreeMode, Navigation } from "swiper/modules";
+import { SwiperNavButtons } from "../../component/SwiperNavButton";
 
 const Servicess = () => {
     return (
@@ -26,20 +27,18 @@ const Servicess = () => {
                 <div className="">
                     <Swiper
                         slidesPerView={1}
-                        navigation={true}
+                        navigation={false}
                         breakpoints={{
                             576: {
-                                // width: 576,
                                 slidesPerView: 2,
                             },
                             768: {
-                                // width: 768,
                                 slidesPerView: 3,
                             },
                         }}
-                        modules={[Navigation]}
+                        modules={[Navigation, FreeMode]}
                         spaceBetween={10}
-                        className="mySwiper p-8"
+                        className="mySwiper p-8 relative"
                     >
 
                         <SwiperSlide className="rounded-2xl shadow-2xl backdrop-blur-xl bg-white/30">
@@ -78,6 +77,7 @@ const Servicess = () => {
                                 </p>
                             </div>
                         </SwiperSlide>
+                        <SwiperNavButtons />
                     </Swiper>
                 </div>
             </div>
