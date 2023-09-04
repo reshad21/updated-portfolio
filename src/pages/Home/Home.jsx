@@ -4,6 +4,7 @@ import About from './../About/About';
 import Blog from './../Blog/Blog';
 import Contact from './../Contact/Contact';
 import Portfolio from './../Portfolio/Portfolio';
+import Servicess from './../Servicess/Servicess';
 import WorkDetails from './../WorkDetails/WorkDetails';
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
             <WorkDetails />
             <About />
             <Portfolio />
-            {/* <Servicess /> */}
+            <Servicess />
             <Blog />
             <Contact />
         </>

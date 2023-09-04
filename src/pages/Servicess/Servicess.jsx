@@ -13,7 +13,7 @@ const Servicess = () => {
         <div className="services relative" id="services">
             <div>
                 <img
-                    className="absolute left-36 top-28"
+                    className="absolute md:top-36 top-80 right-44"
                     data-aos="zoom-in-down"
                     src="https://i.ibb.co/D7B9JTn/bars12.png"
                     alt=""
@@ -28,14 +28,18 @@ const Servicess = () => {
                         slidesPerView={1}
                         navigation={true}
                         breakpoints={{
-                            640: {
+                            576: {
+                                // width: 576,
+                                slidesPerView: 2,
+                            },
+                            768: {
+                                // width: 768,
                                 slidesPerView: 3,
-                                spaceBetween: 20,
                             },
                         }}
                         modules={[Navigation]}
                         spaceBetween={70}
-                        className="mySwiper rounded-2xl"
+                        className="mySwiper  p-8"
                     >
                         <SwiperSlide className="rounded-2xl shadow-2xl">
                             <div className="p-20 text-center services-content">
@@ -67,9 +71,9 @@ const Servicess = () => {
                         <SwiperSlide className="rounded-2xl shadow-2xl">
                             <div className="p-20 text-center services-content">
                                 <FaDesktop className="mx-auto text-9xl text-[#6815eb]" />
-                                <h3 className="text-3xl mt-5 mb-10">ECOMMERCE</h3>
+                                <h3 className="text-3xl mt-5 mb-10">Marketing</h3>
                                 <p className="text-slate-500 text-3xl">
-                                    Elevate your business with Ecommerce! From product display to secure transactions, we'll build your online success. Embrace the digital marketplace today and unlock boundless opportunities with our expert Ecommerce solutions!
+                                    I have a team of digital marketer. They are top rated in many freelance platform. I can help you to grow your business. Also i can give you many business plan and tricks so that you can generate more traffic in your website.
                                 </p>
                             </div>
                         </SwiperSlide>
