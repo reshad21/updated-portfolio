@@ -38,9 +38,19 @@ const Servicess = () => {
                             },
                         }}
                         modules={[Navigation]}
-                        spaceBetween={70}
-                        className="mySwiper  p-8"
+                        spaceBetween={10}
+                        className="mySwiper p-8"
                     >
+
+                        <SwiperSlide className="rounded-2xl shadow-2xl">
+                            <div className="p-20 text-center services-content">
+                                <FaDesktop className="mx-auto text-9xl text-[#6815eb]" />
+                                <h3 className="text-3xl mt-5 mb-10">Marketing</h3>
+                                <p className="text-slate-500 text-3xl">
+                                    I have a team of digital marketer. They are top rated in many freelance platform. I can help you to grow your business. Also i can give you many business plan and tricks so that you can generate more traffic in your website.
+                                </p>
+                            </div>
+                        </SwiperSlide>
                         <SwiperSlide className="rounded-2xl shadow-2xl">
                             <div className="p-20 text-center services-content">
                                 <FaCode className="mx-auto text-9xl text-[#6815eb]" />
@@ -65,15 +75,6 @@ const Servicess = () => {
                                 <h3 className="text-3xl mt-5 mb-10">MOBILE + FRIENDLY</h3>
                                 <p className="text-slate-500 text-3xl">
                                     Mobilize your brand with user-friendly design! From smartphones to desktops, we create seamless experiences for every device. Embrace Mobile + Friendly solutions and conquer the digital landscape!
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className="rounded-2xl shadow-2xl">
-                            <div className="p-20 text-center services-content">
-                                <FaDesktop className="mx-auto text-9xl text-[#6815eb]" />
-                                <h3 className="text-3xl mt-5 mb-10">Marketing</h3>
-                                <p className="text-slate-500 text-3xl">
-                                    I have a team of digital marketer. They are top rated in many freelance platform. I can help you to grow your business. Also i can give you many business plan and tricks so that you can generate more traffic in your website.
                                 </p>
                             </div>
                         </SwiperSlide>
