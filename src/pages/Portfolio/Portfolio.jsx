@@ -48,10 +48,10 @@ const Portfolio = () => {
 
                         <div className="shadow-2xl rounded-2xl story__shape">
                             <img
-                                className="h-full w-full story__img rounded-2xl"
+                                className="h-full w-full  rounded-2xl"
                                 data-aos="zoom-in-up"
-                                src="https://images.unsplash.com/photo-1518976224508-8119c10fabad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=385&q=80"
-                                alt=""
+                                src="https://i.ibb.co/gjM0y24/React-App-1.png"
+                                alt="blogging-image"
                             />
 
                             <div className="story__caption rounded-2xl">
@@ -78,9 +78,9 @@ const Portfolio = () => {
                     <div className="portfolio-2">
                         <div className="shadow-2xl rounded-2xl mb-10 story__shape">
                             <img
-                                className="h-full w-full story__img rounded-2xl"
+                                className="h-full w-full object-cover object-left-top rounded-2xl"
                                 data-aos="zoom-in-up"
-                                src="https://images.unsplash.com/photo-1531347387918-af516d1e939c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                src="https://i.ibb.co/smsL9XK/Wild-Photographer.png"
                                 alt=""
                             />
                             <div className="story__caption rounded-2xl">
@@ -105,9 +105,9 @@ const Portfolio = () => {
                         </div>
                         <div className="shadow-2xl rounded-2xl story__shape">
                             <img
-                                className="h-full w-full story__img rounded-2xl"
+                                className="h-full w-full object-cover object-left-top rounded-2xl"
                                 data-aos="zoom-in-up"
-                                src="https://images.unsplash.com/photo-1518226203301-8e7f833c6a94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                                src="https://i.ibb.co/88WnbYW/Keofi-Great-coffee-good-vibes.png"
                                 alt=""
                             />
 
@@ -135,9 +135,9 @@ const Portfolio = () => {
                     <div className="portfolio-3">
                         <div className="shadow-2xl rounded-2xl mb-10 story__shape">
                             <img
-                                className="h-full w-full story__img rounded-2xl "
+                                className="h-full w-full object-cover object-left-top rounded-2xl "
                                 data-aos="zoom-in-up"
-                                src="https://images.unsplash.com/photo-1518665750801-883c188a660d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                                src="https://i.ibb.co/m85BXsN/Rap2-France-Home.png"
                                 alt=""
                             />
                             <div className="story__caption rounded-2xl">
@@ -162,9 +162,9 @@ const Portfolio = () => {
                         </div>
                         <div className="shadow-2xl rounded-2xl story__shape">
                             <img
-                                className="h-full w-full story__img rounded-2xl"
+                                className="h-full w-full object-cover object-left-top rounded-2xl"
                                 data-aos="zoom-in-up"
-                                src="https://images.unsplash.com/photo-1512279093314-5926a353720c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                                src="https://i.ibb.co/w4Chv8Z/Legal-solution-resources.png"
                                 alt=""
                             />
 
