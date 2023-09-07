@@ -4,7 +4,7 @@ import resume from "../../assets/reshad-resume.pdf";
 
 const Navber = () => {
     const [toggle, setToggle] = useState(false);
-    console.log(toggle);
+    // console.log(toggle);
     const navItem = (
         <>
             <li>
