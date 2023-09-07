@@ -5,8 +5,8 @@ import './App.css';
 import router from './routes/router';
 
 function App() {
-  const { test } = useSelector(state => state.counter);
-  console.log(test);
+  const { toggle } = useSelector(state => state.navber);
+  console.log(toggle);
   return (
     <div className="">
       <RouterProvider router={router} />

@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from "react-router-dom";
 import resume from "../../assets/reshad-resume.pdf";
+import { navber } from '../../redux/features/navberSlice';
 
 const Navber = () => {
-    const [toggle, setToggle] = useState(false);
-    // console.log(toggle);
+    // const [toggle, setToggle] = useState(false);
+    const { toggle } = useSelector(state => state.navber);
+    const dispatch = useDispatch();
     const navItem = (
         <>
             <li>
@@ -35,7 +38,7 @@ const Navber = () => {
             <div className="navbar max-w-screen-xl mx-auto z-10 p-5">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden" onClick={() => setToggle(!toggle)}>
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden" onClick={() => dispatch(navber())}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-12 w-12"
