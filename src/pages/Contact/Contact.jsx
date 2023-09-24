@@ -80,7 +80,7 @@ const Contact = () => {
                                 rows="10"
                                 placeholder="Please Write Your Message"
                             ></textarea>
-                            <div className="form-control mt-6 w-[28%]">
+                            <div className="form-control mt-6 w-[50%] md:w-[28%] lg:w-[28%]">
                                 <input type="submit" value="Submit Now" className="btn-main" />
                             </div>
                         </div>

@@ -5,18 +5,18 @@ const Blog = () => {
         <div className="blog bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30 relative" id="blog">
             <div>
                 <img
-                    className="absolute right-36 top-20"
+                    className="absolute right-36 top-[60px]"
                     data-aos="zoom-in-down"
                     src="https://i.ibb.co/D7B9JTn/bars12.png"
                     alt=""
                 />
             </div>
             <div
-                className="max-w-screen-xl mx-auto md:px-0 px-48"
+                className="max-w-screen-xl mx-auto px-32 md:px-40 lg:px-48"
                 data-aos="zoom-in-up"
             >
                 <div className="text-center p-24">
-                    <h2 className="text-6xl banner-heading-sub">Blog</h2>
+                    <h2 className="text-6xl text-center banner-heading-sub inline-block">Blog</h2>
                 </div>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-36 pb-36">
                     <div className="card bg-base-100 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
@@ -37,6 +37,7 @@ const Blog = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="card bg-base-100 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <figure>
                             <img
@@ -53,6 +54,7 @@ const Blog = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="card bg-base-100 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <figure>
                             <img
