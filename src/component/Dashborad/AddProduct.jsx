@@ -13,7 +13,6 @@ const AddProduct = () => {
         // Reset the form by clearing the state variables
         setTitle("");
         setDescription("");
-
         formRef.current.reset();
     }
     return (
