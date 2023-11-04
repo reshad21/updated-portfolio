@@ -20,10 +20,11 @@ const ManageProduct = () => {
                 <th className='border-2'>
                     <td>Action</td>
                 </th>
-                {
-                    data?.data.map((item, i) => <BlogTableRow item={item} key={item.id} sl={i} />)
-                }
-
+                <tbody>
+                    {
+                        data?.data.map((item, i) => <BlogTableRow item={item} key={item._id} sl={i} />)
+                    }
+                </tbody>
             </table>
         </div>
     );
