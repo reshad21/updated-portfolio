@@ -5,9 +5,18 @@ export const blogApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/api/v1' }),
   endpoints: (builder) => ({
     getBlog: builder.query({
-      query: () => "/blog",
+      query: () => ({
+        url: "/blog",
+      }),
+    }),
+    saveBlog: builder.mutation({
+      query: (data) => ({
+        method: "POST",
+        url: "/blog",
+        body: data,
+      }),
     }),
   }),
 })
 
-export const { useGetBlogQuery } = blogApi
+export const { useGetBlogQuery, useSaveBlogMutation } = blogApi
