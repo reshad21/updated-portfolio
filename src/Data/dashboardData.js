@@ -4,11 +4,11 @@ export const dashboardItems = [
         pathName:"/dashboard"
     },
     {
-        title: "Add Product",
+        title: "Add Article",
         pathName:"/dashboard/add-product"
     },
     {
-        title: "Manage Product",
+        title: "Manage Article",
         pathName:"/dashboard/manage-product"
     },
     {

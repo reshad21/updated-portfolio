@@ -21,7 +21,7 @@ const AddProduct = () => {
 
             <form ref={formRef} className='bg-slate-50 w-[70%] mx-auto p-10 rounded-lg shadow-xl'>
                 <div className="mb-3">
-                    <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} className="input input-bordered w-full text-2xl" />
+                    <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} className="input input-bordered w-full h-[50px] text-2xl" />
                 </div>
                 <div className="mb-3">
                     <textarea className="textarea textarea-bordered w-full h-[300px] text-2xl" placeholder="Bio" value={description} onChange={(e) => setDescription(e.target.value)}></textarea>
