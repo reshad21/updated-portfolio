@@ -30,7 +30,7 @@ const ModalBox = ({ closeModal }, ref) => {
                 <form action="">
                     <input type="text" name='title' className='border border-slate-700 rounded-sm w-full h-10 px-2 mb-3' />
                     <input type="text" name='price' className='border border-slate-700 rounded-sm w-full h-10 px-2 mb-2' />
-                    <input type='submit' className='bg-green-800 text-white px-2 rounded-md my-2' />
+                    <button className='btn btn-primary text-3xl text-red-300'>Submit</button>
                 </form>
             </dialog>
         </div>
