@@ -11,6 +11,12 @@ export const blogApi = createApi({
       }),
       providesTags: ['Blogs'],
     }),
+    getSingleBlog: builder.query({
+      query: (id) => ({
+        url: `/blog/${id}`,
+      }),
+      providesTags: ['Blogs'],
+    }),
     saveBlog: builder.mutation({
       query: (data) => ({
         method: "POST",
@@ -36,4 +42,4 @@ export const blogApi = createApi({
   }),
 })
 
-export const { useGetBlogQuery, useSaveBlogMutation, useDeleteBlogMutation, useUpdateBlogMutation } = blogApi
+export const { useGetBlogQuery, useSaveBlogMutation, useDeleteBlogMutation, useUpdateBlogMutation, useGetSingleBlogQuery } = blogApi

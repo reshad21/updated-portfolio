@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useGetBlogQuery, useUpdateBlogMutation } from '../../redux/features/api/apiSlice';
 import BlogTableRow from './BlogTableRow';
 import ModalBox from './ModalBox';
@@ -9,11 +10,13 @@ const ManageProduct = () => {
     const [updateBlogData, setUpdateBlogData] = useState(null);
     const blogData = data?.data || [];
 
+    const navigate = useNavigate();
+
     const modalRef = useRef("");
     const openModal = (data) => {
-        console.log("view product info:", data);
+        console.log("view product info:", data?._id);
 
-        updateBlog(data)
+        updateBlog(data._id)
             .then((result) => {
                 setUpdateBlogData(result);
                 console.log("Update blog data:", result);
@@ -27,6 +30,7 @@ const ManageProduct = () => {
 
     const closeModal = () => {
         modalRef.current.close();
+        navigate("/dashboard/manage-product");
     }
     return (
         <div className='w-full mt-20'>
@@ -50,7 +54,7 @@ const ManageProduct = () => {
                 </tbody>
             </table>
             {/* <Dialogbox ref={modalRef} /> */}
-            <ModalBox ref={modalRef} closeModal={closeModal} />
+            <ModalBox ref={modalRef} closeModal={closeModal} updateBlogData={updateBlogData} />
         </div>
     );
 };
