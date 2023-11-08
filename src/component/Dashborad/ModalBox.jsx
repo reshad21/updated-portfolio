@@ -1,7 +1,6 @@
 import React, { forwardRef, useImperativeHandle, useRef } from 'react';
 
 const ModalBox = ({ closeModal, updateBlogData }, ref) => {
-    console.log("take data from modal", updateBlogData);
     const dialogRef = useRef(null);
 
     // Define the showModal function

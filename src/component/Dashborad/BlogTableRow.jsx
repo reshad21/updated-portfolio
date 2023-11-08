@@ -1,15 +1,13 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { useDeleteBlogMutation } from '../../redux/features/api/apiSlice';
+import { Link } from 'react-router-dom';
+import { useDeleteBlogMutation, useGetSingleBlogQuery } from '../../redux/features/api/apiSlice';
 
 const BlogTableRow = ({ item, sl, openModal }) => {
-    const { id } = useParams();
-    console.log("take data id from url", id);
     const [deleteBlog] = useDeleteBlogMutation();
-
+    const { singleBlogData } = useGetSingleBlogQuery(item?._id);
+    console.log("single product all information:", singleBlogData || {});
 
     const handleDelete = (id) => {
-        console.log(id);
         deleteBlog(id);
     }
 

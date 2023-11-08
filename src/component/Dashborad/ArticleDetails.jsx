@@ -6,7 +6,6 @@ const ArticleDetails = () => {
     const { id } = useParams();
     const { data, isLoading } = useGetSingleBlogQuery(id);
     const { _id, title, description } = data?.data || {}
-    console.log(title, description);
     return (
         <>
             <div className="card card-compact w-[70%] mx-auto bg-base-100 shadow-xl">
