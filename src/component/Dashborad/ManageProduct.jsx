@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useGetBlogQuery, useGetSingleBlogQuery } from '../../redux/features/api/apiSlice';
+import { useGetBlogQuery } from '../../redux/features/api/apiSlice';
 import BlogTableRow from './BlogTableRow';
 import ModalBox from './ModalBox';
 
@@ -9,23 +9,11 @@ const ManageProduct = () => {
     const blogData = data?.data || [];
     const navigate = useNavigate();
     const modalRef = useRef(null);
-    const [singleBlogData, setSingleBlogData] = useState("");
 
-    // Move the useGetSingleBlogQuery hook outside of the component
-    const { data: singleBlogDataResponse } = useGetSingleBlogQuery(singleBlogData);
-
-    // Handle the fetched data in the useEffect
-    useEffect(() => {
-        if (singleBlogDataResponse) {
-            setSingleBlogData(singleBlogDataResponse);
-            modalRef.current.showModal();
-        }
-    }, [singleBlogDataResponse]);
 
     const openModal = (data) => {
-        console.log("view product info:", data);
         console.log(data._id);
-        setSingleBlogData(data._id);
+        modalRef.current.showModal();
     }
 
     const closeModal = () => {
