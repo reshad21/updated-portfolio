@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { useGetBlogQuery } from '../../redux/features/api/apiSlice';
+import { singleArticle } from '../../redux/features/counterSlice';
 import BlogTableRow from './BlogTableRow';
 import ModalBox from './ModalBox';
 
@@ -10,9 +12,12 @@ const ManageProduct = () => {
     const navigate = useNavigate();
     const modalRef = useRef(null);
 
+    const articleId = useSelector((state) => state.counter.singleBlogId);
+    const dispatch = useDispatch();
+
 
     const openModal = (data) => {
-        console.log(data._id);
+        dispatch(singleArticle(data._id));
         modalRef.current.showModal();
     }
 
@@ -38,7 +43,7 @@ const ManageProduct = () => {
                     }
                 </tbody>
             </table>
-            <ModalBox ref={modalRef} closeModal={closeModal} />
+            <ModalBox ref={modalRef} closeModal={closeModal} articleId={articleId} />
         </div>
     );
 };

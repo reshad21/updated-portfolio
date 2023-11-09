@@ -10,7 +10,6 @@ const BlogTableRow = ({ item, sl, openModal }) => {
     }
 
     const handleUpdateBlog = (data) => {
-        console.log(data);
         openModal(data);
     }
 

@@ -3,7 +3,8 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     value: 0,
-    test:"reshad",
+    test: "reshad",
+    singleBlogId: "",
 };
 
 export const counterSlice = createSlice({
@@ -18,11 +19,14 @@ export const counterSlice = createSlice({
         },
         incrementByAmount: (state, action) => {
             state.value += action.payload
+        },
+        singleArticle: (state, action) => {
+            state.singleBlogId = action.payload;
         }
     }
 })
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = counterSlice.actions;
+export const { increment, decrement, incrementByAmount, singleArticle } = counterSlice.actions;
 
 export default counterSlice.reducer;
