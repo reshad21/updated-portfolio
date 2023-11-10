@@ -1,8 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useDeleteBlogMutation } from '../../redux/features/api/apiSlice';
+import { singleArticle } from '../../redux/features/counterSlice';
 
 const BlogTableRow = ({ item, sl, openModal }) => {
+    const dispatch = useDispatch();
     const [deleteBlog] = useDeleteBlogMutation();
 
     const handleDelete = (id) => {
@@ -11,6 +14,7 @@ const BlogTableRow = ({ item, sl, openModal }) => {
 
     const handleUpdateBlog = (data) => {
         openModal(data);
+        dispatch(singleArticle(data._id));
     }
 
     return (
