@@ -2,7 +2,6 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useDeleteBlogMutation } from '../../redux/features/api/apiSlice';
-import { singleArticle } from '../../redux/features/counterSlice';
 
 const BlogTableRow = ({ item, sl, openModal }) => {
     const dispatch = useDispatch();
@@ -12,9 +11,10 @@ const BlogTableRow = ({ item, sl, openModal }) => {
         deleteBlog(id);
     }
 
-    const handleUpdateBlog = (data) => {
-        openModal(data);
-        dispatch(singleArticle(data._id));
+    const handleUpdateBlog = (id) => {
+        console.log(id);
+        openModal(id);
+        // dispatch(singleArticle(data._id));
     }
 
     return (
@@ -25,7 +25,7 @@ const BlogTableRow = ({ item, sl, openModal }) => {
                 <td className='border-2'>{item.title}</td>
                 <td className='border-2'>
                     <ul className='flex gap-4 p-4'>
-                        <li><button onClick={() => handleUpdateBlog(item)} className='btn-sm btn-outline btn-success text-2xl font-semibold shadow-md border rounded-md'>Edit</button></li>
+                        <li><button onClick={() => handleUpdateBlog(item._id)} className='btn-sm btn-outline btn-success text-2xl font-semibold shadow-md border rounded-md'>Edit</button></li>
 
                         <li><Link to={`blog-details/${item._id}`} className='btn-sm btn-outline btn-primary text-2xl font-semibold shadow-md border rounded-md'>View</Link></li>
 
